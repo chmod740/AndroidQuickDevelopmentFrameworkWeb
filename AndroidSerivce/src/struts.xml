@@ -13,8 +13,22 @@
 		extends="struts-default, json-default">
 		
 		<action name="save"  class="saveAction">
-			<result name="success">/index.jsp</result>
+			<result name="success" type="json">
+				<param name="root">aqdSimpleReturnModel</param>
+				<param name="excludeNullProperties">true</param>
+				<param name="noCache">true</param>
+				<param name="charSet">UTF-8</param>
+			</result>
 		</action>
 		
+		
+		<action name="update"  class="updateAction">
+			<result name="success" type="json">
+				<param name="root">aqdSimpleReturnModel</param>
+				<param name="excludeNullProperties">true</param>
+				<param name="noCache">true</param>
+				<param name="charSet">UTF-8</param>
+			</result>
+		</action>
 	</package>
 </struts>

@@ -19,5 +19,5 @@ default-autowire="byName">
     <bean id="indexAction" class="me.hupeng.homeworkweb.action.IndexAction" scope="prototype" autowire="default"></bean>
 	-->
 	<bean id="saveAction" class="me.hupeng.android.service.action.SaveAction" scope="prototype" autowire="default"></bean>
-
+<bean id="updateAction" class="me.hupeng.android.service.action.UpdateAction" scope="prototype" autowire="default"></bean>
 </beans>
