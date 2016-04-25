@@ -1,0 +1,21 @@
+#MyEclipse Hibernate Properties
+#Mon Apr 25 16:03:33 CST 2016
+genBasicCompId=false
+sessionFactoryName=me.hupeng.android.service.DAO.HibernateSessionFactory
+profile=
+daoSFId=
+jndiPath=
+detectM2M=false
+reStrategyClass=
+detectO2O=false
+springDaoFile=
+useJavaTypes=true
+keyGenerator=
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+genAnnotations=false
+reSettingsFile=
+configFile=/AndroidSerivce/src/hibernate.cfg.xml
+createConfigFile=true
+baseDaoClass=me.hupeng.android.service.DAO.BaseHibernateDAO
